@@ -1,5 +1,7 @@
 // const fruta = "banana"
 
+
+
 // // console.log(fruta.includes("c"))
 
 // // console.log(fruta.indexOf("c"))
