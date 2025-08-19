@@ -1,0 +1,22 @@
+    <body>
+      <h1 id="titulo">Bem-vindo!</h1>
+
+      <p id="paragrafo">
+        Olá <span class="escondido">Mundo</span>! <b>JS DOM</b>
+      </p>
+
+      <script>
+        const titulo = document.getElementById("titulo");
+        const p = document.getElementById("paragrafo");
+
+        console.log("=== Leitura de Conteúdo ===");
+        console.log("titulo.textContent:", titulo.textContent);
+        console.log("titulo.innerText:", titulo.innerText);
+        console.log("titulo.innerHTML:", titulo.innerHTML);
+
+        console.log("---");
+
+        console.log("paragrafo.textContent:", p.textContent);
+        console.log("paragrafo.innerText:", p.innerText);
+        console.log("paragrafo.innerHTML:", p.innerHTML);
+    </script>
